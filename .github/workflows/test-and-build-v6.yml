@@ -1,7 +1,5 @@
 name: Build and Publish (development-v6-nightly)
 on:
-  schedule:
-    - cron: "0 5 * * *"
   push:
     branches:
       - development-v6
